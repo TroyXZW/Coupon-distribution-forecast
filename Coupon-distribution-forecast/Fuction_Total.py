@@ -43,7 +43,6 @@ def drop_duplicate(x, i):
                                                          x.value_counts().sum())))
         del x
 
-print("DONE")
 
 def to_int(x):
     """
@@ -56,3 +55,6 @@ def to_int(x):
         return int(x)
     else:
         return int(x)
+
+    
+print("DONE")
